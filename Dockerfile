@@ -1,6 +1,5 @@
 FROM ubuntu:20.04
 
-RUN apt-get update
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y blender wget
 # COPY blender-2.93.1-linux-x64.tar.xz /tmp/
